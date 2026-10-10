@@ -3,7 +3,15 @@ This Android app uses AI powered features to respond to prompts by the user. Use
 or selecting an image from the file picker. The underlying model can be switched or customized. Default is gemini-3.1-flash-lite
 
 # Demo
-N/A
+In this demo:
+- App is launched
+- A prompt is said, sent and responded to by the AI agent via chat bubbles and speech
+- Then an an image from the gallery is sent with a typed prompt
+- The voice response is stopped by pressing the mute button at the top right switching speech OFF
+- The mute button is toggled back ON
+- Another voice prompt is sent and the user received another chat bubble + speech reply
+
+https://github.com/user-attachments/assets/b14544da-a866-4e03-a139-779d57531c2f
 
 # Features
 - AI prompting and response
@@ -15,7 +23,7 @@ N/A
 - Intuitive easy UI design
 
 # Usage
-- Use the textfiled to prompt your AI assistant and receive a streamed response
+- Use the text field to prompt your AI assistant and receive a streamed response
 - Use speech recognition after granting mic permission
 - TTS can be toggled on/off using the speaker button at the top right if listening to response is (un)desired
 - Use the image icon in the text field to select and image to prompt with
