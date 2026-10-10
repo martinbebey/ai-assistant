@@ -1,0 +1,839 @@
+[debug] [2026-10-01T04:36:11.696Z] ----------------------------------------------------------------------
+[debug] [2026-10-01T04:36:11.716Z] Command:       c:\Users\betoc\AppData\Local\Programs\cursor\resources\app\resources\helpers\node.exe C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\bin\firebase.js projects:list
+[debug] [2026-10-01T04:36:11.718Z] CLI Version:   15.32.1
+[debug] [2026-10-01T04:36:11.719Z] Platform:      win32
+[debug] [2026-10-01T04:36:11.722Z] Node Version:  v22.22.0
+[debug] [2026-10-01T04:36:11.723Z] Detected Agent: cursor
+[debug] [2026-10-01T04:36:11.724Z] Time:          Thu Oct 01 2026 00:36:11 GMT-0400 (Eastern Daylight Time)
+[debug] [2026-10-01T04:36:11.727Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-10-01T04:36:11.799Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2026-10-01T04:36:11.994Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-10-01T04:36:12.102Z] Error: Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+    at GoogleAuth.getApplicationDefaultAsync (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\google-auth-library\build\src\auth\googleauth.js:287:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async GoogleAuth._GoogleAuth_determineClient (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\google-auth-library\build\src\auth\googleauth.js:834:32)
+    at async GoogleAuth.getClient (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\google-auth-library\build\src\auth\googleauth.js:698:20)
+    at async GoogleAuth.getAccessToken (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\google-auth-library\build\src\auth\googleauth.js:722:24)
+    at async autoAuth (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\requireAuth.js:38:19)
+    at async Object.requireAuth [as fn] (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\requireAuth.js:100:20)
+    at async C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\command.js:278:17
+[error] 
+[error] Error: Failed to authenticate, have you run firebase login?
+[debug] [2026-10-01T04:36:12.114Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.131Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.134Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.136Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.138Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.140Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.141Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.141Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.143Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.144Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.146Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.148Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.149Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.151Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.153Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.162Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.167Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.168Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.169Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.171Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.176Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.178Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.178Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.179Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.181Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.182Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.183Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.185Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.187Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.188Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.189Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.190Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.192Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.195Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.197Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.198Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.198Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.200Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.201Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.202Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.202Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.203Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.224Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.226Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.228Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.231Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.233Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.235Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.237Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.240Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.242Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.243Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.243Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.263Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.266Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.281Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.284Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.286Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.287Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.289Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.292Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.293Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-10-01T04:36:12.295Z] Error: EPIPE: broken pipe, write
+    at Socket._write (node:internal/net:63:18)
+    at writeOrBuffer (node:internal/streams/writable:572:12)
+    at _write (node:internal/streams/writable:501:10)
+    at Writable.write (node:internal/streams/writable:510:10)
+    at Console.log (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\lib\winston\transports\console.js:87:23)
+    at Console._write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\modern.js:103:17)
+    at doWrite (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:390:139)
+    at writeOrBuffer (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:381:5)
+    at Writable.write (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:302:11)
+    at DerivedLogger.ondata (C:\Users\betoc\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:629:20)

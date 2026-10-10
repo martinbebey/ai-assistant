@@ -1,0 +1,27 @@
+--- a/duration.py
++++ b/duration.py
+@@ -0,0 +1,28 @@
++import re
++
++_TOKEN = re.compile(r"(\d+)([hms])")
++
++
++def parse_duration(s: str) -> int:
++    s = s.strip()
++    if not s:
++        return 0
++    pos = 0
++    seen = set()
++    total = 0
++    for m in _TOKEN.finditer(s):
++        if m.start() != pos:
++            raise ValueError("invalid duration")
++        n, u = int(m.group(1)), m.group(2)
++        if u in seen:
++            raise ValueError("invalid duration")
++        seen.add(u)
++        total += n * {"h": 3600, "m": 60, "s": 1}[u]
++        pos = m.end()
++    if pos != len(s):
++        raise ValueError("invalid duration")
++    return total

@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- AppCompat DayNight with ActionBar so we get a top toolbar/menu -->
+    <style name="Base.Theme.GeminiAI" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+    </style>
+
+    <style name="Theme.GeminiAI" parent="Base.Theme.GeminiAI" />
+</resources>

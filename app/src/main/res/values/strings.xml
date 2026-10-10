@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MartinAI</string>
+    <string name="send">Send</string>
+    <string name="attach_image">Attach image</string>
+    <string name="speak">Speak</string>
+    <string name="toggle_tts">Toggle spoken replies</string>
+</resources>
